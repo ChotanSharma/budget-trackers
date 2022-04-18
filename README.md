@@ -24,7 +24,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 ## Installation 
 To run this application, the users need to download npm packages, mongodb, mongoose, express.js. 
 ## Usage 
-If a user clones the repo and install the necessary modules, the user only needs to do "npm start" on the command line. Then the app will be ready with the json data. The users can get associated data relationship established by mongoose collections association. 
+If a user clones the repo and install the necessary modules, the user only needs to do "npm start" on the command line. The users can get associated data relationship established by mongoose collections association. 
 
 
 ## License 
