@@ -18,12 +18,13 @@ app.use(express.static("public"));
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  useFindAndModify: false
+  // facing problem while running with useFindAndModify
+  //useFindAndModify: false
 });
 
 // routes
 app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
+  console.log("Now listening on http://localhost:"+PORT);
 });
